@@ -24,3 +24,7 @@ app.get('/', (req, res) => {
 });
 
 // hello
+
+app.listen(process.env.PORT || PORT, () => {
+  console.log('Yey, your server is running on port 4000');
+});
